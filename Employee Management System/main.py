@@ -33,6 +33,7 @@ if __name__ == "__main__":
             print("Login Failed!")
             break
         else:
+            os.system('cls')
             print("Login Successful!")
         SubMenuFlag = False
         while SessionUser_ID in employee_DB.keys():
