@@ -1,1 +1,1 @@
-DisplayEmploeeInfo
+            os.system('cls')

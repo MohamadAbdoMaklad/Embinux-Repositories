@@ -62,7 +62,7 @@ if __name__ == "__main__":
             elif Option == 3:
                 os.system('cls')
                 ID = input("Enter Employee ID : ")
-                print("Discount : $",Calc_Bonus(ID))
+                print("Discount : $",Calc_Discount(ID))
                 SubMenuVal = SubMenu()
                 if SubMenuVal == 1:
                     SubMenuFlag = True
